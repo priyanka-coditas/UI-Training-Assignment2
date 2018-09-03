@@ -1,0 +1,134 @@
+input[type=text]
+{
+border-radius: 3px;
+border-width: 1px;
+border-color:
+#e8e8e8;
+border-style: solid;
+background-color:
+#f6f6f6;
+width: 280px;
+height: 30px;
+margin: 10px;
+margin-top:10px;
+font-size: 12px;
+}
+
+input[type=password]
+{
+border-radius: 3px;
+border-width: 1px;
+border-color:
+#e8e8e8;
+border-style: solid;
+background-color:
+#f6f6f6;
+width: 280px;
+height: 30px;
+margin: 10px;
+margin-top:10px;
+font-size: 12px;
+}
+
+
+.fields
+{
+
+	
+}
+h1
+{
+
+font-family: Lato;
+color:
+#f4f4f4;
+font-size: 20px;/* Approximation due to font substitution */
+font-weight: 500;
+text-align: center;
+padding: 15px ;
+}
+
+
+.BG
+{
+border-radius: 3px;
+background-color:
+#ffffff;
+box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+width: 300px;
+height: 300px;
+margin: 160 auto;
+
+}
+
+.forgotPass
+{
+font-family: Lato;
+color:
+#000000;
+font-size: 12px;/* Approximation due to font substitution */
+font-weight: 400;
+text-align: center;
+margin-top:10px;
+margin:10px;	
+float: left;
+}
+.signup
+{
+font-family: Lato;
+color:
+#000000;
+font-size: 12px;/* Approximation due to font substitution */
+font-weight: 400;
+text-align: center;
+margin-top:10px;
+margin:10px;
+float: right;
+}
+.login
+{
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+background-color:
+#17a2d4;
+width: 300px;
+height: 50px;
+margin-bottom:10px;
+}
+.facebook
+{
+border-radius: 3px;
+background-color: #3b5998;
+width: 120px;
+height: 30px;
+color:white;
+font-size: 12px;
+float:left;
+margin-top:10px;
+margin:10px;
+}
+.google
+{
+border-radius: 3px;
+background-color:
+#d34836;
+width:120px;
+height: 30px;
+color:white;
+float:right;
+font-size: 12px;
+margin:10px;
+margin-top:10px;
+}
+.loginBtn
+{color:white;
+border-radius: 3px;
+background-color:
+#17a2d4;
+font-size: 12px;
+width: 280px;
+height: 30px;
+margin: 10px 10px;
+margin-top:10px;
+text-align: left;
+}
