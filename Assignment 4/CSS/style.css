@@ -1,3 +1,19 @@
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+.header
+{
+background-color:  #17a2d4;
+/*width: 1600px;*/
 /*height: 69px;*/
 }
 .header-name
@@ -5,26 +21,9 @@
 width: 1024px;
 /*height: 120px;*/
 margin: auto;
-padding: 10px;
+padding: 8px;
 }
 
-.Box2-btn .menuitem
-{
-	/*float:left;
-	padding-bottom: 22px;
-	margin-right: 70px;
-*/
-	margin: 10px 60px;
-	list-style: none;
-	float: left;
-	padding-bottom:10px;
-	
-}
-
- .Active 
-{ 		
-	border-bottom: 3px solid blue;
-}
 h2
 {
 font-family: Lato;
@@ -32,7 +31,7 @@ color:  #f4f4f4;
 font-size: 24px;/* Approximation due to font substitution */
 font-weight: 800;
 text-align: left;
-margin-top: 15px;
+margin-top:15px;
 /*padding-top: 24px;*/
 }
 .name
@@ -44,6 +43,7 @@ margin-top: 15px;
 width: 54px;
 height: 54px;
 float:right;
+border-radius: 50%;
 /*padding-top: 7px;*/
 
 }
@@ -53,7 +53,9 @@ border-top-left-radius: 3px;
 border-top-right-radius: 3px;
 background-color:  #fbfbfb;
 width: 1024px;
-height: 120px;
+
+
+/*height: 120px;*/
 /*margin:auto;
 margin-top: 50px;
 */
@@ -63,6 +65,7 @@ margin-top: 50px;
 width: 77px;
 height: 77px;
 float:left;
+border-radius: 50%;
 }
 h3
 {
@@ -103,46 +106,105 @@ margin-left: 20px;
 {
 	padding:21px 40px;
 }
-
-.Box2
+.Box2-lables
 {
 background-color:  #ffffff;
 box-shadow: 0px 3px 3.92px 0.08px rgba(0, 0, 0, 0.18);
-width: 1024px;
-/*height: 60px;*/
+/*width: 1024px;
+height: 60px;*/
 /*margin:auto;*/
-border-bottom: 1px solid silver;
+border-top: 1px solid #e9e9e9;
+border-bottom: 1px solid #e9e9e9;
 
 }
+
 .Box3
 {
 background-color:  #ffffff;
 box-shadow: 0px 3px 3.92px 0.08px rgba(0, 0, 0, 0.18);
-width: 1024px;
-height: 80px;
+/*width: 1024px;*/
+/*height: 80px;*/
 /*margin:auto;*/
-border-bottom: 3px solid silver;
+border-bottom: 1px solid #e9e9e9;
+padding:21px 40px;
 }
+
 .Box3-btn
 {
 	float:left;
 }
-/*li
+.menu-items
 {
 	list-style: none;
 	float: left;
-	padding-right: 50px;
+	margin-left: 52px;
+	margin-right: 52px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	font-family: Lato;
+color:  #000000;
+font-size: 16px;/* Approximation due to font substitution */
+font-weight: 400;
+line-height: 32px;/* Approximation due to font substitution */
+text-align: left;
+	/*padding-right: 50px;*/
+}
 
-}*/
+.match-menu-items
+{
+	list-style: none;
+	float: left;
+	/*padding-top: 10px;
+	padding-bottom: 10px;*/
+	margin-left: 30px;
+	margin-right: 60px;
+	font-family: Lato;
+color:  #8c8c8c;
+font-size: 14px;/* Approximation due to font substitution */
+font-weight: 400;
+text-align: left;
+}
+.box4-menu
+{
+background-color:  rgba(1, 2, 2, 0.04);
+padding: 12px 0px;
+margin: 10px;
+/*margin-bottom: 50px;
+*//*width: 1024px;
+height: 41px;
+*/}
+
+.box4-menu-info
+{
+background-color:  rgba(1, 2, 2, 0.02);
+padding: 12px 0px;
+margin :10px;
+}
+.match-menu-info
+{
+	list-style: none;
+	float: left;
+	margin-left: 30px;
+	margin-right: 40px;
+	font-family: Lato;
+	color:  #000000;
+	font-size: 14px;/* Approximation due to font substitution */
+	font-weight: 400;
+	text-align: left;
+}
+.menu-items.active
+{
+	border-bottom: 3px solid  #17a2d4;
+}
 .Upcoming
 {
 border-bottom-left-radius: 3px;
 border-top-left-radius: 3px;
-background-color:  #e9e9e9;
+background-color:  #17a2d4;
 width: 180px;
 height: 40px;
 font-family: Lato;
-color:  #000000;
+color:  #ffffff;
 font-size: 18px;/* Approximation due to font substitution */
 font-weight: 400;
 text-align: center;
@@ -151,11 +213,11 @@ text-align: center;
 {
 	border-bottom-right-radius: 3px;
 border-top-right-radius: 3px;
-background-color:  #17a2d4;
+background-color:  #e9e9e9;
 width: 180px;
 height: 40px;
 font-family: Lato;
-color:  #ffffff;
+color:  #010000;
 font-size: 18px;/* Approximation due to font substitution */
 font-weight: 400;
 text-align: center;
@@ -177,7 +239,7 @@ float:right;
 {
 	width: 1024px;
 	/*margin:auto;*/
-	border-bottom: 3px solid silver;
+	border-bottom: 1px solid grey;
 
 }
 .number
@@ -199,9 +261,9 @@ float:right;
 .Box4-name
 {
 	float:left;
-/*	margin-top:20px;
+	margin-top:20px;
 	margin-left: 20px;
-	*/font-family: Lato;
+	font-family: Lato;
 	color:  #000000;
 	font-size: 16px;/* Approximation due to font substitution */
 	font-weight: 400;
@@ -223,17 +285,22 @@ text-align: left;
 {
 	width: 1024px;
 	/*margin:auto;*/
-	border-bottom: 3px solid silver;
+	border-bottom: 1px solid #e9e9e9;
 
 }
-.containt
+.content
 {
+margin:50px auto;
 border-radius: 3px;
 background-color:  #ffffff;
 box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
 width: 1024px;
-height: 757px;
-margin: auto;
+/*height: 757px;*/
+}
+.box4-menu
+{
+background-color:  rgba(1, 2, 2, 0.04);
+
 }
 .clear
 {
